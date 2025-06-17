@@ -53,7 +53,7 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
-    - 节点选择
+    - 台湾节点
       
  - name: 🔯故障转移
    type: fallback
