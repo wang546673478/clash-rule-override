@@ -24,8 +24,10 @@ dns:
 proxy-groups:
  - name: hhhh组合
    type: select
-   include-all: true
-   exclude-filter: (?i)家宽|家庭|商宽|落地|故障
+   proxies:
+    - 自动选择
+    - 全球直连
+    - 故障转移
 
  - name: 自动选择
    type: url-test
@@ -67,7 +69,7 @@ proxy-groups:
  
  - name: 加拿大节点
    include-all: true
-   filter: (?i)加|ca|canada|toronto|vancouver|montreal|calgary
+   filter: (?i)加拿大|ca|canada|toronto|vancouver|montreal|calgary|拿大|加拿
    exclude-filter: (?i)家宽|家庭|商宽|落地
    type: url-test
    interval: 300
