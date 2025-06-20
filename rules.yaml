@@ -96,9 +96,9 @@ proxy-groups:
   - name: 🚀 GitHub
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -358,6 +358,7 @@ proxy-groups:
   - name: 🎥 AppleTV+
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -379,11 +380,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🎥 Emby
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -405,11 +406,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🎻 Spotify
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -431,7 +432,6 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 📺 Bahamut
     type: select
@@ -442,6 +442,7 @@ proxy-groups:
   - name: 🌎 国外媒体
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -463,11 +464,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🛒 国外电商
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -489,11 +490,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 📢 谷歌FCM
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -515,11 +516,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🇬 谷歌服务
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -541,11 +542,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -568,10 +569,10 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -594,10 +595,12 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
+
+
   - name: 🎮 游戏平台
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -620,10 +623,10 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
   - name: 🎮 Steam
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -646,10 +649,12 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
+
+
   - name: 🚀 测速工具
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
@@ -672,10 +677,11 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
+
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
       - 🇯🇵 日本节点
@@ -697,7 +703,6 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
-      - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🇭🇰 香港节点
     type: url-test
