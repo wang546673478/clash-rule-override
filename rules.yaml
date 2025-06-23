@@ -933,11 +933,9 @@ proxy-groups:
 rules:
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
-  - RULE-SET,Custom_Direct,🎯 全球直连
-  - RULE-SET,Custom_Proxy,🚀 手动选择
   - GEOSITE,google-cn,🎯 全球直连
   - GEOSITE,category-games@cn,🎯 全球直连
-  - RULE-SET,Steam_CDN,🎯 全球直连
+  - RULE-SET,Direct,🎯 全球直连
   - GEOSITE,category-game-platforms-download,🎯 全球直连
   - GEOSITE,category-public-tracker,🎯 全球直连
   - GEOSITE,category-communication,💬 即时通讯
@@ -975,23 +973,11 @@ rules:
   - GEOIP,cn,🎯 全球直连,no-resolve
   - MATCH,🐟 漏网之鱼
 rule-providers:
-  Custom_Direct:
+  Direct:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list
-    path: ./rule/Custom_Direct.list
-    interval: 28800
-  Custom_Proxy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy.list
-    path: ./rule/Custom_Proxy.list
-    interval: 28800
-  Steam_CDN:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Steam_CDN.list
-    path: ./rule/Steam_CDN.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list
+    path: ./Direct/Direct.list
     interval: 28800
 
 geodata-mode: true
