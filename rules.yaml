@@ -93,7 +93,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
 
-  - name: 加密货币
+  - name: 🌐 加密货币
     type: select
     proxies:
       - ♻️ 自动选择
@@ -966,7 +966,7 @@ rules:
   - GEOSITE,category-public-tracker,🎯 全球直连
   - GEOSITE,category-communication,💬 即时通讯
   - GEOSITE,category-social-media-!cn,🌐 社交媒体
-  - GEOSITE,CATEGORY-CRYPTOCURRENCY,加密货币
+  - GEOSITE,CATEGORY-CRYPTOCURRENCY,🌐 加密货币
   - GEOSITE,openai,🤖 ChatGPT
   - GEOSITE,bing,🤖 Copilot
   - GEOSITE,category-ai-!cn,🤖 AI服务
