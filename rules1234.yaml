@@ -92,6 +92,32 @@ proxy-groups:
       - 🇻🇳 越南节点
       - 🌐 其他地区
       - 🚀 手动选择
+
+  - name: 加密货币
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇼🇸 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇺 澳大利亚节点
+      - 🇫🇮 芬兰节点
+      - 🇮🇳 印度节点
+      - 🇵🇭 菲律宾节点
+      - 🇷🇺 俄罗斯节点
+      - 🇦🇪 阿联酋节点
+      - 🇻🇳 越南节点
+      - 🌐 其他地区
+      - 🚀 手动选择
       
   - name: 🚀 GitHub
     type: select
@@ -939,6 +965,7 @@ rules:
   - GEOSITE,category-public-tracker,🎯 全球直连
   - GEOSITE,category-communication,💬 即时通讯
   - GEOSITE,category-social-media-!cn,🌐 社交媒体
+  - GEOSITE,CATEGORY-CRYPTOCURRENCY,加密货币
   - GEOSITE,openai,🤖 ChatGPT
   - GEOSITE,bing,🤖 Copilot
   - GEOSITE,category-ai-!cn,🤖 AI服务
