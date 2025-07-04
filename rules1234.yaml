@@ -957,7 +957,13 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
 rules:
+  - RULE-SET,BanAD,🛑 全球拦截
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
   - GEOSITE,google-cn,🎯 全球直连
@@ -999,3 +1005,12 @@ rules:
   - GEOSITE,cn,🎯 全球直连
   - GEOIP,cn,🎯 全球直连,no-resolve
   - MATCH,🐟 漏网之鱼
+
+
+rule-providers:
+  BanAD:
+    type:
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
+    path: ./master/Clash/BanAD.list
+    interval: 28800
