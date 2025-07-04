@@ -1009,7 +1009,7 @@ rules:
 
 rule-providers:
   BanAD:
-    type:
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
     path: ./master/Clash/BanAD.list
