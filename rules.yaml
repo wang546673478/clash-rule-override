@@ -1019,8 +1019,8 @@ rules:
 rule-providers:
   BanAD:
     type: http
-    behavior: classical
-    # behavior: domain
+    # behavior: classical
+    behavior: domain
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
     path: ./BanAD.list
     interval: 28800
