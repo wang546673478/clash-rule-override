@@ -964,6 +964,7 @@ proxy-groups:
       - REJECT
 rules:
   - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,ADBlock,🛑 全球拦截
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
   - GEOSITE,google-cn,🎯 全球直连
@@ -1016,3 +1017,11 @@ rule-providers:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
     path: ./BanAD.list
     interval: 28800
+    
+  ADBlock:
+    type: http
+    behavior: domain
+    format: text
+    interval: 28800
+    url: https://adrules.top/adrules_domainset.txt
+    path: ./ADBlock.txt
