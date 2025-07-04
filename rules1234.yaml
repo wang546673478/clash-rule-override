@@ -1012,6 +1012,7 @@ rule-providers:
     type: http
     behavior: domain
     # behavior: classical
+    format: text
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
     path: ./BanAD.list
     interval: 28800
