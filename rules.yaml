@@ -965,8 +965,8 @@ proxy-groups:
 
 
 rules:
-  # - RULE-SET,BanAD,🛑 全球拦截
-  # - RULE-SET,ADBlock,🛑 全球拦截
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,ADBlock,🛑 全球拦截
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
   - GEOSITE,google-cn,🎯 全球直连
