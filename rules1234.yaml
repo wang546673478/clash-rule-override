@@ -38,6 +38,7 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies: 
+      - SmartSelect
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇺🇸 美国节点
