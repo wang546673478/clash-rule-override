@@ -963,7 +963,7 @@ proxy-groups:
     interval: 300
     # tolerance: 50
     include-all: true
-    filter: (?i)印|in|india|mumbai|delhi
+    filter: (?i)印|🇮🇳|印度|india|mumbai|delhi
     exclude-filter: (?i)家宽|家庭|商宽|落地
     lazy: false
   
@@ -1030,10 +1030,13 @@ proxy-groups:
   
 
   - name: 🌐 其他地区
-    type: url-test
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://cp.cloudflare.com/generate_204
     interval: 300
-    tolerance: 50
+    # tolerance: 50
     lazy: false
     include-all: true
     filter: ^(?!(.*(港|HK|Hong Kong|HongKong|HONG KONG|HKG|九龍|新界|沙田|葵涌|將軍澳|大埔|屯門|荃灣|美|us|unitedstates|new york|los angeles|chicago|san jose|dallas|seattle|日|jp|japan|tokyo|osaka|fukuoka|sapporo|新|sg|singapore|jurong|punggol|台|新北|彰化|TW|Taiwan|韩|kr|korea|seoul|incheon|加拿大|ca|canada|toronto|vancouver|montreal|calgary|拿大|加拿|英|uk|britain|london|manchester|slough|法|fr|france|paris|marseille|德|de|germany|frankfurt|berlin|munich|荷兰|荷蘭|NL|Netherlands|Holland|Amsterdam|Rotterdam|Eindhoven|The Hague|Den Haag|Utrecht|Maastricht|AMS-IX|荷|土|tr|turkey|türkiye|istanbul|ankara|izmir|bursa|adana|ams-ix|澳|au|australia|sydney|melbourne|芬|fi|finland|helsinki|印|in|india|mumbai|delhi|菲|ph|philippines|manila|cebu|俄|ru|russia|moscow|saint petersburg|阿联酋|ae|uae|dubai|abudhabi|越|vn|vietnam|hanoi|ho chi minh))).*
