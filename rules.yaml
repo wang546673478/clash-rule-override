@@ -811,7 +811,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?i)英|uk|britain|london|manchester|slough
+    filter: (?i)英|uk|britain|london|manchester|slough|🇬🇧
     exclude-filter: (?i)家宽|家庭|商宽|落地
     lazy: false
 
