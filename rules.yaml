@@ -35,8 +35,8 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     exclude-filter: (?i)家宽|家庭|商宽|落地
     lazy: false
@@ -734,8 +734,8 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)港|HK|Hong Kong|HongKong|HONG KONG|HKG|九龍|新界|沙田|葵涌|將軍澳|大埔|屯門|荃灣
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -744,8 +744,8 @@ proxy-groups:
   - name: 🇺🇸 美国节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)美|us|unitedstates|new york|los angeles|chicago|san jose|dallas|seattle
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -754,8 +754,8 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)日|jp|japan|tokyo|osaka|fukuoka|sapporo
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -765,8 +765,8 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)新|sg|singapore|jurong|punggol
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -775,8 +775,8 @@ proxy-groups:
   - name: 🇼🇸 台湾节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -786,8 +786,8 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)韩|kr|korea|seoul|incheon
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -797,8 +797,8 @@ proxy-groups:
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)加拿大|ca|canada|toronto|vancouver|montreal|calgary|拿大|加拿
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -808,8 +808,8 @@ proxy-groups:
   - name: 🇬🇧 英国节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)英|uk|britain|london|manchester|slough|🇬🇧
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -818,8 +818,8 @@ proxy-groups:
   - name: 🇫🇷 法国节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)法|fr|france|paris|marseille
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -830,8 +830,8 @@ proxy-groups:
   - name: 🇩🇪 德国节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)德|de|germany|frankfurt|berlin|munich
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -841,8 +841,8 @@ proxy-groups:
   - name: 🇳🇱 荷兰节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)荷兰|荷蘭|NL|Netherlands|Holland|Amsterdam|Rotterdam|Eindhoven|The Hague|Den Haag|Utrecht|Maastricht|AMS-IX|荷
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -852,8 +852,8 @@ proxy-groups:
   - name: 🇹🇷 土耳其节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)土|tr|turkey|türkiye|istanbul|ankara|izmir|bursa|adana|ams-ix
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -863,8 +863,8 @@ proxy-groups:
   - name: 🇦🇺 澳大利亚节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)澳|au|australia|sydney|melbourne
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -875,8 +875,8 @@ proxy-groups:
   - name: 🇫🇮 芬兰节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)芬|fi|finland|helsinki
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -886,8 +886,8 @@ proxy-groups:
   - name: 🇮🇳 印度节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)印|in|india|mumbai|delhi
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -899,8 +899,8 @@ proxy-groups:
   - name: 🇵🇭 菲律宾节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)菲|ph|philippines|manila|cebu
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -910,8 +910,8 @@ proxy-groups:
   - name: 🇷🇺 俄罗斯节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)俄|ru|russia|moscow|saint petersburg
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -923,8 +923,8 @@ proxy-groups:
   - name: 🇦🇪 阿联酋节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)阿联酋|ae|uae|dubai|abudhabi
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -934,8 +934,8 @@ proxy-groups:
   - name: 🇻🇳 越南节点
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     include-all: true
     filter: (?i)越|vn|vietnam|hanoi|ho chi minh
     exclude-filter: (?i)家宽|家庭|商宽|落地
@@ -946,8 +946,8 @@ proxy-groups:
   - name: 🌐 其他地区
     type: url-test
     url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     lazy: false
     include-all: true
     filter: ^(?!(.*(港|HK|Hong Kong|HongKong|HONG KONG|HKG|九龍|新界|沙田|葵涌|將軍澳|大埔|屯門|荃灣|美|us|unitedstates|new york|los angeles|chicago|san jose|dallas|seattle|日|jp|japan|tokyo|osaka|fukuoka|sapporo|新|sg|singapore|jurong|punggol|台|新北|彰化|TW|Taiwan|韩|kr|korea|seoul|incheon|加拿大|ca|canada|toronto|vancouver|montreal|calgary|拿大|加拿|英|uk|britain|london|manchester|slough|法|fr|france|paris|marseille|德|de|germany|frankfurt|berlin|munich|荷兰|荷蘭|NL|Netherlands|Holland|Amsterdam|Rotterdam|Eindhoven|The Hague|Den Haag|Utrecht|Maastricht|AMS-IX|荷|土|tr|turkey|türkiye|istanbul|ankara|izmir|bursa|adana|ams-ix|澳|au|australia|sydney|melbourne|芬|fi|finland|helsinki|印|in|india|mumbai|delhi|菲|ph|philippines|manila|cebu|俄|ru|russia|moscow|saint petersburg|阿联酋|ae|uae|dubai|abudhabi|越|vn|vietnam|hanoi|ho chi minh))).*
