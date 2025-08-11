@@ -796,7 +796,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)港|HK|Hong Kong|HongKong|HONG KONG|HKG|九龍|新界|沙田|葵涌|將軍澳|大埔|屯門|荃灣
+    filter: (?i)香港|🇭🇰
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -818,7 +818,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)美|us|unitedstates|new york|los angeles|chicago|san jose|dallas|seattle
+    filter: (?i)美国|🇺🇸
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -838,7 +838,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)日|jp|japan|tokyo|osaka|fukuoka|sapporo
+    filter: (?i)日本|🇯🇵
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -849,7 +849,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)新|sg|singapore|jurong|punggol
+    filter: (?i)新加坡|🇸🇬
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -870,7 +870,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)韩|kr|korea|seoul|incheon
+    filter: (?i)韩国|🇰🇷
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -881,7 +881,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)加拿大|ca|canada|toronto|vancouver|montreal|calgary|拿大|加拿
+    filter: (?i)加拿大|🇨🇦
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -892,7 +892,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)英|uk|britain|london|manchester|slough|🇬🇧
+    filter: (?i)英国|🇬🇧
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -902,7 +902,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)法|fr|france|paris|marseille
+    filter: (?i)法国|🇫🇷
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -914,7 +914,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)德|de|germany|frankfurt|berlin|munich
+    filter: (?i)德国|🇩🇪
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -925,7 +925,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)荷兰|荷蘭|NL|Netherlands|Holland|Amsterdam|Rotterdam|Eindhoven|The Hague|Den Haag|Utrecht|Maastricht|AMS-IX|荷
+    filter: (?i)荷兰|🇳🇱
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -936,7 +936,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)土|tr|turkey|türkiye|istanbul|ankara|izmir|bursa|adana|ams-ix
+    filter: (?i)土耳其|🇹🇷
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
 
@@ -947,7 +947,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)澳|au|australia|sydney|melbourne
+    filter: (?i)澳大利亚|🇦🇺
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -959,7 +959,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)芬|fi|finland|helsinki
+    filter: (?i)芬兰|🇫🇮
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -970,7 +970,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)印|🇮🇳|印度|india|mumbai|delhi
+    filter: (?i)印度|🇮🇳
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -983,7 +983,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)菲|ph|philippines|manila|cebu
+    filter: (?i)菲律宾|🇵🇭
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -994,7 +994,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)俄|ru|russia|moscow|saint petersburg
+    filter: (?i)俄罗斯|🇷🇺
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -1007,7 +1007,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)阿联酋|ae|uae|dubai|abudhabi
+    filter: (?i)阿联酋|🇦🇪
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
@@ -1018,7 +1018,7 @@ proxy-groups:
     interval: 120
     tolerance: 20
     include-all: true
-    filter: (?i)越|vn|vietnam|hanoi|ho chi minh
+    filter: (?i)越南|🇻🇳
     exclude-filter: (?i)家宽|家庭|商宽|落地
     #lazy: false
   
